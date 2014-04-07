@@ -12,7 +12,6 @@ namespace ReflectTest
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false, Inherited = false)]
     public class FieldAttribute : Attribute
     {
-        private string sss;
         private string _Fields; 
         /// <summary>
         /// 字段名称
